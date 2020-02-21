@@ -1,0 +1,26 @@
+{
+  "name": "Banking Data",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "suppliesData": true,
+  "commands": [
+    {
+      "script": "banking-data-supplier.js",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown",
+          "SupplyBankFull": "onSupplyBankFull",
+          "SupplyBankAbbr": "onSupplyBankAbbr",
+          "SupplyBankCodeAbbr": "onSupplyBankCodeAbbr",
+          "SupplyAccountAbbr16": "onSupplyAccountAbbr16",
+          "SupplyAmount": "onSupplyAmount"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "title": "banking-data"
+  }
+}
