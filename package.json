@@ -22,5 +22,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.5.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nktx/banking-data-supplier.git"
+  },
   "author": "Kent Yang <kenty@tw.ibm.com>"
 }
